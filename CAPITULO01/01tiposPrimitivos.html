@@ -1,0 +1,86 @@
+
+<div>
+
+
+<p>
+    Este primeiro capítulo discorre sobre tipos primitivos. Segundo o Livro os tipos primitivos são armazenados como tipos de dados simples. Os tipos de referência são armazenados como objetos e, na realidade, são apenas referência a posições de memória.
+</p>
+
+    <h1>
+        Tipos primitivos
+    </h1>
+<p>
+    Há cinco tipos de primitivos em JavaScript:
+    Boolean;
+    Number;
+    String;
+    Null;
+    Undefined;
+</p>
+</div>
+
+//strings
+var name = 'Jonez';
+var selection = 'a';
+
+//number
+var count = 25;
+var cost = 1.51;
+
+// boolean
+
+var found = true;
+
+
+// null
+var object = null;
+
+// undefined
+var flag = undefined;
+var ref;
+
+<div>
+
+    <p>
+        Como em muitas outras linguagens, as variáveis que armazenam um primitivo contêm diretamente o valor primitivo, em vez de um ponteiro.
+        Isso significa que se for atribuído uma variável a outra, cada variável terá seu próprio valor gravado na memória.
+    </p>
+
+    <p>
+        Cada variável primitiva usa seu espaçõ de armazenamento e uma não interfere na outra.
+    </p>
+
+    <h1>
+        E o typeof(null)?
+    </h1>
+
+    <p>
+        O typeof null, o resultado é object. Mas por que é um objeto se o tipo é null? Isso foi reconhecido com um erro pelo TC39 que é o comitê que faz o design e mantém o JavaScript.
+    </p>
+    <p> A melhor maneira de determinar se um valor é null é compará-lo diretamente com null</p>
+
+<h1>    Métodos Primitivos.</h1>
+
+<p> 
+Apesar de serem de tipos primitivos, strings, numbers e Booleans contêm métodos.
+</p>
+
+</div>
+
+var name = 'Jonez';
+var lowercarse = name.toLowerCase();
+
+var firstletter = name.charAt(0);
+var count = 10;
+var fixedCount = count.toFixed(2)
+
+
+<div>
+    <h1>Tipos de Referência
+    </h1>
+    <p>Definição de objetos: Um objeto é uma lista não ordenada de propriedades contituídas de um nome (sempre uma string) e um valor </p>
+    <p>Quando o valor de uma propriedade for uma função ele será chamado método</p>
+
+<p> Quando um objeto for atribuído a uma variável, você estará, na verdade atribuindo-lhe um ponteiro. Isso significa que se você atribuir uma variável a outra, cada variável terá uma cópia dessa referência.</p>
+
+</div>
